@@ -1,0 +1,77 @@
+﻿<?xml version="1.0"?>
+<!-- Jordan McNair & Jude Mai -->
+
+<!-- SCHEMA OPEN -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<!-- DECLARING DOCUMENT ELEMENT -->
+<xsd:element name="WebPage" type="rootElement"/>
+
+	<!-- DEFINING CONTENTS OF DOCUMENT ELEMENT -->
+	<xsd:complexType name="rootElement">
+		<xsd:sequence>
+			<xsd:element name="entry" type="entryType" minOccurs="20" maxOccurs="unbounded"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+		
+	<!-- Defining an entry -->
+	<xsd:complexType name="entryType">
+	<xsd:sequence>
+		<xsd:element name="language" type="languageRestrictions" minOccurs="1"/>
+		<xsd:element name="description" type="descriptionRestrictions" minOccurs="1"/>
+		<xsd:element name="paradigm" type="paradigmRestrictions" minOccurs="1"/>
+		<xsd:element name="family" type="familyRestrictions" minOccurs="1" default="n/a"/> 
+		<xsd:element name="designer" type="designerRestrictions" minOccurs="1"/>
+		<xsd:element name="initialRelease" type="initialReleaseRestrictions" minOccurs="1"/>
+
+	</xsd:sequence>
+	</xsd:complexType>
+
+	<!-- Restrictions on LANGUAGE property -->
+	<xsd:simpleType name="languageRestrictions">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="\w+|[\w].+"></xsd:pattern>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Restrictions on DESCRIPTION property -->
+	<xsd:simpleType name="descriptionRestrictions">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="15"/>
+			<xsd:pattern value="\w+|[\w].+"></xsd:pattern>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Restrictions on PARADIGM property -->
+	<xsd:simpleType name="paradigmRestrictions">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="3"/>
+			<xsd:pattern value="([\w]|[\W]).+"></xsd:pattern>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Restrictions on FAMILY property -->
+	<xsd:simpleType name="familyRestrictions">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+			<xsd:pattern value="([\w]+|[\W])+"></xsd:pattern>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Restrictions on DESIGNER property -->
+	<xsd:simpleType name="designerRestrictions">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="5"/>
+			<xsd:pattern value="\w+|[\w].+"></xsd:pattern>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Restrictions on STABLE RELEASE property -->
+	<xsd:simpleType name="initialReleaseRestrictions">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="([0-9][0-9]?\/([3][0-1]|[0-2][0-9])?\/(([1-2][0-9][0-9][0-9])|[1-2][0-9])|[\w]+( [0-9][0-9]?((th)?(st)?(nd)?(,)?))? [1-2]\d{3}|[1-2]\d\d\ds?(-[1-2]\d{3}|[1-2]\d\d\d)?s?)|Unknown"></xsd:pattern>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+</xsd:schema>
+<!-- SCHEMA CLOSE -->

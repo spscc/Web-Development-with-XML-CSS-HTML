@@ -1,0 +1,72 @@
+﻿/* Jordan McNair & Jude Mai*/
+
+/* BACKGROUND STYLE */
+Body {
+    padding: 1em;
+    background-image: url(https://media.tenor.com/9vRAkntogEMAAAAd/background.gif); /*souce: https://tenor.com/view/background-gif-26400551*/
+    background-repeat: repeat;
+    background-size: contain;
+    overflow-x: hidden;
+}
+
+/* ENTRY STYLE */
+div:not(:empty) {
+    display:block;
+    border:groove;
+    margin:1em;
+    padding:2em;
+    background-image:linear-gradient(#d0ebe7, #faffe9, #e5deb0);
+    border-width:1em;
+    border-color:#a4c2bf;
+    border-radius:2em;
+    font-size:1vw;
+    font-family:sans-serif;
+}
+
+div:hover {
+    background-image: linear-gradient(#b2ebcf, #faffe9, #e5d796);
+    margin:.4em;
+    padding:2.1em;
+    margin-top:1em;
+    border-color:#b0a74b;
+    border-width:.8em;
+
+}
+
+/* CODE LANGUAGE FIELD */
+#h1 {
+    border-radius:1em;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    background-color:#c5ded1;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+background-size:cover;
+}
+
+    #h1:hover {
+        background-color: #e6e5ac;
+    }
+    /* DESCRIPTION FIELD */
+    #h2 {
+    font-size: 1.5em;
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight:normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* PARADIGM, FAMILY, DESIGNER, AND INITIAL RELEASE FIELDS */
+#h3, #h4, #h5, #h6  {
+    display: block;
+    color:#424242;
+    font-family:'Courier New';  
+    font-size:1.1em;
+    padding:.1em;
+    margin:.1em;
+}
+
+
+

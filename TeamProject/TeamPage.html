@@ -1,0 +1,147 @@
+﻿<html>
+<!-- Jordan McNair & Jude Mai // 11.2.2022 -->
+<head>
+    <link href="TeamStyle.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <script>
+
+        /*...SCRIPT LINEAR LOGIC...*/
+
+        var fileName = "TeamTree.xml";
+        var recursionLevel = 0;
+        var savedFields = [];
+
+      
+
+        var x = loadXMLDoc(fileName);
+
+        if (!x)
+            alert("XML file did not load.");
+        else {
+            traverse(x.documentElement);
+        }
+
+        /* LOAD ENTRIES ON TO PAGE USING THE SAVED XML FIELDS*/
+        for (var i = 0; i < savedFields.length; i++) {
+
+            var lang = savedFields[i];
+            i++;
+            var desc = savedFields[i];
+            i++;
+            var para = savedFields[i];
+            i++;
+            var fam = savedFields[i];
+            i++;
+            var desi = savedFields[i];
+            i++;
+            var ini = savedFields[i];
+            i++;
+            AddEntry(lang, desc, para, fam, desi, ini);
+        }
+       
+
+
+
+  
+         
+
+           
+       
+           
+
+           
+        
+
+ 
+      
+
+
+        /*...DEFINING THE FUNCTIONS...*/
+
+        /* FUNCTION TO TRAVERSE THROUGH CURRENT NODE */
+        function traverse(currentNode) {
+  
+
+            if (currentNode.childNodes.length > 0) {
+
+                recursionLevel++;
+                for (var i = 0; i < currentNode.childNodes.length; i++) {
+                    // outputNode(currentNode, recursionLevel)
+
+                    var result = traverse(currentNode.childNodes[i]);
+                }
+
+                if (currentNode.nodeType == 1) {
+                    savedFields.push(currentNode);
+                }
+
+               
+                   
+                
+             
+
+                
+                /*AFTER AN ELEMENT IS CREATED FOR EACH XML FIELD IT IS ADDED TO THE ADD ENTRY FUNCTION WHICH PLACES IT WITHIN A DIV ELEMENT*/
+                
+           
+                recursionLevel--;
+
+           
+            }
+          
+        }
+
+   
+
+        /* FUNCTION THAT IDENTIFIES SPACES */
+        function spaces(n) {
+            var myStr = "";
+            for (var i = 0; i < n; i++)
+                myStr += "&nbsp&nbsp&nbsp&nbsp";
+            return (myStr);
+        }
+
+        /* FUNCTION THAT LOADS AN XML DOCUMENT */
+        function loadXMLDoc(filename) {
+            xhttp = new XMLHttpRequest();
+            xhttp.open("GET", filename, false);
+            xhttp.send();
+            return xhttp.responseXML;
+        }
+
+
+        /* FUNCTION ADDS NEW ELEMENTS TO AN ENTRY DIV*/
+        function AddEntry(lang,desc,para,fam,des,ini) {
+            // create a new entry
+            const newEntry = document.createElement("div");
+
+            lang.setAttribute("id", "h1");
+            desc.setAttribute("id", "h2");
+            para.setAttribute("id", "h3");
+            fam.setAttribute("id", "h4");
+            des.setAttribute("id", "h5");
+            ini.setAttribute("id", "h6");
+
+            // add the newly created element to the entry "div"
+            newEntry.appendChild(lang);
+            newEntry.appendChild(desc);
+            newEntry.appendChild(para);
+            newEntry.appendChild(fam);
+            newEntry.appendChild(des);
+            newEntry.appendChild(ini);
+         
+
+            // add the newly created element and its content into the DOM
+            const currentElement = document.getElementById("div");
+            document.body.insertBefore(newEntry, currentElement);
+        }
+
+      
+
+
+    </script>
+</body>
+    </html>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="TeamStyle.css"?>
+<!-- Jordan McNair & Jude Mai -->
+<WebPage>
+	<entry>
+		<language>C#</language>
+		<description>C# (C-Sharp) is a programming language developed by Microsoft that runs on the .NET Framework. C# is used to develop web apps, desktop apps, mobile apps, games and much more.</description>
+		<paradigm>Multi-paradigm: structured, imperative, object-oriented, event-driven, task-driven, functional, generic, reflective, concurrent</paradigm>
+		<family>C</family>
+		<designer>Anders Hejlsberg</designer>
+		<initialRelease>2001</initialRelease>
+	</entry>
+	<entry>
+		<language>JavaScript</language>
+		<description>JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.</description>
+		<paradigm>Multi-paradigm: event-driven, functional, imperative, procedural, object-oriented programming</paradigm>
+		<family>JavaScript</family>
+		<designer>Brendan Eich &amp; others</designer>
+		<initialRelease>December 4th 1995</initialRelease>
+	</entry>
+	<entry>
+		<language>SQL</language>
+		<description>SQL is a standard language for storing, manipulating and retrieving data in databases. Our SQL tutorial will teach you how to use SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.</description>
+		<paradigm>Declarative</paradigm>
+		<family>Query language</family>
+		<designer>Donald D. Chamberling, Raymond F. Boyce</designer>
+		<initialRelease>April 24th 1989</initialRelease>
+	</entry>
+	<entry>
+		<language>Swift</language>
+		<description>Swift is the new programming language for iOS and OS X development. It borrows from languages such as C, Objective-C, and other modern programming languages.</description>
+		<paradigm>Multi-paradigm: protocol-oriented, object-oriented, functional, imperative, block structured, declarative, concurrent</paradigm>
+		<family>C</family>
+		<designer>Chris Lattner, Doug Gregor, John McCall, Ted Kremenek, Joe Groff, and Apple Inc.</designer>
+		<initialRelease>June 2nd 2014</initialRelease>
+	</entry>
+	<entry>
+		<language>PHP</language>
+		<description>PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages. PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.</description>
+		<paradigm>Multi-paradigm: imperative, functional, object-oriented, procedural, reflective</paradigm>
+		<family>C</family>
+		<designer>Rasmus Lerdorf</designer>
+		<initialRelease>1995</initialRelease>
+	</entry>
+	<entry>
+		<language>Ruby</language>
+		<description>Ruby is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity.</description>
+		<paradigm>Multi-paradigm: functional, imperative, object-oriented, reflective</paradigm>
+		<family>Scripting language</family>
+		<designer>Yukihiro Matsumoto</designer>
+		<initialRelease>December 25th 1996</initialRelease>
+	</entry>
+	<entry>
+		<language>Java</language>
+		<description>Developers use Java to construct applications in laptops, data centres, game consoles, scientific supercomputers, cell phones, and other devices. Java is the world's third most popular programming language, after Python and C.</description>
+		<paradigm>Multi-paradigm: generic, object-oriented (class-based), functional, imperative, reflective, concurrent</paradigm>
+		<family>C</family>
+		<designer>James Gosling</designer>
+		<initialRelease>January 23rd 1996</initialRelease>
+	</entry>
+	<entry>
+		<language>Go</language>
+		<description>Go (also called Golang or Go language) is an open source programming language used for general purpose. Go was developed by Google engineers to create dependable and efficient software. Most similarly modeled after C, Go is statically typed and explicit.</description>
+		<paradigm>Multi-paradigm: concurrent imperative, object-oriented</paradigm>
+		<family>C</family>
+		<designer>Robert Griesemer, Rob Pike, and Ken Thompson</designer>
+		<initialRelease>March 2012</initialRelease>
+	</entry>
+	<entry>
+		<language>TypeScript</language>
+		<description>TypeScript extends JavaScript and improves the developer experience. It enables developers to add type safety to their projects. Moreover, TypeScript provides various other features, like interfaces, type aliases, abstract classes, function overloading, tuple, generics, etc.</description>
+		<paradigm>Multi-paradigm: functional, generic, imperative, object-oriented</paradigm>
+		<family>JavaScript</family>
+		<designer>Microsoft Corporation</designer>
+		<initialRelease>October 1st 2012</initialRelease>
+	</entry>
+	<entry>
+		<language>Rust</language>
+		<description>What is Rust programming used for? Rust is a high-performance, statically-typed multi-paradigm programming language. With the main focus on safety and performance. This language helps developers create robust and secure applications.</description>
+		<paradigm>Multi-paradigm: concurrent, functional, generic, imperative, structured</paradigm>
+		<family>ML-family (with C-family sytnax)</family>
+		<designer>Graydon Hoare</designer>
+		<initialRelease>July 7th 2010</initialRelease>
+	</entry>
+	<entry>
+		<language>COBOL</language>
+		<description>A compiled English-like computer programming language designed for business use.</description>
+		<paradigm>	Multi-paradigm: procedural, imperative, object-oriented, generic</paradigm>
+		<family>COBOL</family>
+		<designer>Howard Bromberg, Norman Discount, Vernon Reeves, Jean E. Sammet, William Selden, Gertrude Tierney, with indirect influence from Grace Hopper</designer>
+		<initialRelease>1959</initialRelease>
+	</entry>
+	<entry>
+		<language>F#</language>
+		<description>A functional-first, general purpose, strongly typed, multi-paradigm programming language that encompasses functional, imperative, and object-oriented programming methods. It is most often used as a cross-platform Common Language Infrastructure (CLI) language on .NET, but can also generate JavaScript[8] and graphics processing unit (GPU) code.</description>
+		<paradigm>	Multi-paradigm: functional, imperative, object-oriented, agent-oriented, metaprogramming, reflective, concurrent</paradigm>
+		<family>ML</family>
+		<designer>Don Syme, Microsoft Research</designer>
+		<initialRelease>2005</initialRelease>
+	</entry>
+	<entry>
+		<language>Python</language>
+		<description>Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.</description>
+		<paradigm>Multi-paradigm: object-oriented, procedural (imperative), functional, structured, reflective</paradigm>
+		<family>ABC</family>
+		<designer>Guido van Rossum</designer>
+		<initialRelease>February 20th 1991</initialRelease>
+	</entry>
+	<entry>
+		<language>C</language>
+		<description>A general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential. By design, C's features cleanly reflect the capabilities of the targeted CPUs. It has found lasting use in operating systems, device drivers, protocol stacks, though decreasingly[6] for application software. C is commonly used on computer architectures that range from the largest supercomputers to the smallest microcontrollers and embedded systems.</description>
+		<paradigm>	Multi-paradigm: imperative (procedural), structured</paradigm>
+		<family>C</family>
+		<designer>Dennis Ritchie</designer>
+		<initialRelease>1972</initialRelease>
+	</entry>
+	<entry>
+		<language>C++</language>
+		<description>A high-level general-purpose programming language created by Danish computer scientist Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM, so it is available on many platforms.</description>
+		<paradigm>	Multi-paradigm: procedural, imperative, functional, object-oriented, generic, modular</paradigm>
+		<family>C</family>
+		<designer>Bjarne Stroustrup</designer>
+		<initialRelease>1985</initialRelease>
+	</entry>
+	<entry>
+		<language>Turing</language>
+		<description> a high-level, general-purpose programming language developed in 1982 by Ric Holt and James Cordy, at University of Toronto in Ontario, Canada. It was designed in order to help students taking their first computer science course learn how to code. Turing is a descendant of Pascal, Euclid, and SP/k that features a clean syntax and precise machine-independent semantics.</description>
+		<paradigm>Multi-paradigm: object-oriented, procedural</paradigm>
+		<family>Pascal</family>
+		<designer>Ric Holt and James Cordy</designer>
+		<initialRelease>1982</initialRelease>
+	</entry>
+	<entry>
+		<language>Pascal</language>
+		<description>An imperative and procedural programming language, designed by Niklaus Wirth as a small, efficient language intended to encourage good programming practices using structured programming and data structuring. It is named in honour of the French mathematician, philosopher and physicist Blaise Pascal.</description>
+		<paradigm>	Imperative, structured</paradigm>
+		<family>Wirth Pascal</family>
+		<designer>Niklaus Wirth</designer>
+		<initialRelease>1970</initialRelease>
+	</entry>
+	<entry>
+		<language>Euclid</language>
+		<description>An imperative programming language for writing verifiable programs. It was designed by Butler Lampson and associates at the Xerox PARC lab in the mid-1970s.</description>
+		<paradigm>	Multi-paradigm: structured, imperative, functional</paradigm>
+		<family>Pascal</family>
+		<designer>Butler Lampson, Xerox PARC</designer>
+		<initialRelease>1970s</initialRelease>
+	</entry>
+	<entry>
+		<language>A++</language>
+		<description>A++ stands for abstraction plus reference plus synthesis which is used as a name for the minimalistic programming language that is built on ARS-based programming. ARS-based programming is used as a name for programming which consists mainly of applying patterns derived from ARS to programming in any language. ARS is an abstraction from the Lambda Calculus, taking its three basic operations, and giving them a more general meaning, thus providing a foundation for the three major programming paradigms functional programming, object-oriented programming and imperative programming.</description>
+		<paradigm>Multi-paradigm: functional, object-oriented, imperative, logic</paradigm>
+		<family>ARS</family>
+		<designer>Georg P. Loczewski, Britain Hamm</designer>
+		<initialRelease>1996-2002</initialRelease>
+	</entry>
+	<entry>
+		<language>F*</language>
+		<description>A functional programming language inspired by ML and aimed at program verification. Its type system includes dependent types, monadic effects, and refinement types.</description>
+		<paradigm>Multi-paradigm: functional, imperative</paradigm>
+		<family>ML</family>
+		<designer>Microsoft Research, Inria</designer>
+		<initialRelease>Unknown</initialRelease>
+	</entry>
+</WebPage>
